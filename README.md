@@ -10,12 +10,15 @@ Etape 15 : Réponse aux questions
 
 a) et b) : Modification de la classe Groupe pour que='elle soit utilisable par la méthode main (voir FIGURE 1: méthode main)
 public class Groupe {
-  private List < Integer > liste = new ArrayList < Integer >() ;
+  private List < Integer > liste = new ArrayList <Integer>() ;
   private Integer repere ;
-  public Groupe ( Integer r) {
+  
+  public Groupe (String str) {
+    Integer r = (Integer) str;
     repere = r;
   }
-  public void setMembre ( Integer m) {
+  public void setMembre (String str) {
+    Integer m = (Integer)str;
     liste .add(m);
   }
   public void afficher () {
@@ -26,7 +29,7 @@ public class Groupe {
     }
    }
   private boolean isCorrect ( Integer membre ) {
-    return (( membre != null ) && membre . compareTo ( repere )> 0);
+    return (( membre != null ) && (membrecompareTo(repere)>0);
   }
 }
 
@@ -38,4 +41,7 @@ public static void main ( String [] args ) {
   groupe1 . setMembre ("1");
   groupe1 . afficher ();
 }
+
+
+d)
 

@@ -2,8 +2,8 @@
 
 
 Ce dossier comporte le projet maven du TP examen de POO. 
-Cependant, suite à un erreur de manipulation, j'ai perdu tout mon travail. 
-Ainsi, le projet "tpnote" ici présent est celui du professeur Monsieur Thibault SMITH.
+Cependant, suite à un erreur de manipulation lors du passage vers github, j'ai perdu tout mon travail (il ne fallait pas cliquer sur "Also delete working tree" ... je le saurai à présent !)
+Ainsi, le projet "tpnote" ici présent est celui du professeur Monsieur Thibault SMITH, qui me l'a accordé en échange des 3/4 des points sur la partie développement.
 
 
 Etape 15 : Réponse aux questions 
@@ -43,7 +43,17 @@ public static void main ( String [] args ) {
 }
 
 
-d)
+d)Annotations pour Hibernate :
+- @Id
+- @OneToMany
+- @JoinColumn 
+- @Entity
+- @Version
+- @GeneratedValue
+- @Column
 
-e) Artifactory 
+e) Artifactory est un produit de JFrog qui est un gestionnaire de dépôts d'objets binaires, plus concrètement un système de gestion de logiciels. Il sert de référentiel universel, afin d'avoir une base commune et ce pour des équipes de développement dispersées n'importe où dans le monde !
+C'est un système universel, c'est à dire qu'il s'intègre à tous les outils de build.
+Il peut fonctionner en multi-disponibilité (effectuer plusieurs push en parallèle), répliquer des artefacts en simultané vers plusieurs cibles,et il catalogue les package en méta données afin d'optimiser la qualité, la performance, et la sécurité des codes.
+
 

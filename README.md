@@ -4,6 +4,7 @@
 Ce dossier comporte le projet maven du TP examen de POO. 
 Cependant, suite à un erreur de manipulation lors du passage vers github, j'ai perdu tout mon travail (il ne fallait pas cliquer sur "Also delete working tree" ... je le saurai à présent !)
 Ainsi, le projet "tpnote" ici présent est celui du professeur Monsieur Thibault SMITH, qui me l'a accordé en échange des 3/4 des points sur la partie développement.
+La seule modification apportée à ce projet est le dépôt sur mon github depuis eclipse.
 
 
 Etape 15 : Réponse aux questions 
